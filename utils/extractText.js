@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-// import { PDFParse } from "pdf-parse";
+import { PDFParse } from "pdf-parse";
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 import mammoth from "mammoth";
 import XLSX from "xlsx";
